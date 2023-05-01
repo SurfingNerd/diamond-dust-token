@@ -1,0 +1,15 @@
+{
+  "name": "diamond-dust-token",
+  "version": "0.1.0",
+  "description": "diamond dust erc20 token",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bit.diamonds",
+    "erc20"
+  ],
+  "author": "thomas.haller@bit.diamonds",
+  "license": "MIT"
+}
