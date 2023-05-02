@@ -11,5 +11,9 @@
     "erc20"
   ],
   "author": "thomas.haller@bit.diamonds",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
 }
