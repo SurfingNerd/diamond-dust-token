@@ -7,12 +7,12 @@ async function main() {
 
   // const lockedAmount = ethers.utils.parseEther("1");
 
-  // const Lock = await ethers.getContractFactory("Lock");
-  // const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+  const Dust = await ethers.getContractFactory("DiamondDust");
+  const dust = await Dust.deploy();
 
-  // await lock.deployed();
+  await dust.deployed();
 
-  // console.log(`Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`);
+  console.log(`Diamond Dust was deployed to ${dust.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

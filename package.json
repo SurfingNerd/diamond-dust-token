@@ -4,7 +4,8 @@
   "description": "diamond dust erc20 token",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "deploy-on-mainnet": "npx hardhat run --network DMDv4 scripts/deploy.ts"
   },
   "keywords": [
     "bit.diamonds",
